@@ -191,7 +191,7 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
 - 5-6 hands-on projects
 - `outreach@solinnovate.io`
 
-## AI Engineer - Fill-Stack
+## AI Engineer - Full-Stack
 - Frontend: Streamlit, React
 - Backend: APIs, FastAPI
 - Cognitive Layer (Agents): LLMs
