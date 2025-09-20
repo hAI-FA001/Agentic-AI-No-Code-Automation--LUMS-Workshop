@@ -60,3 +60,28 @@ E.g flow: initial -> add constraints -> add role, structure, further constraints
 ### Model Limitations: Hallucinations
 E.g: asking about some new toothbrush, though it doesn't exist
 
+
+## Agentic AI
+
+Basic AI: Query `-- Process -->` LLM `-- No Iteration -->` Output/Summary/Response <br>
+Agentic AI: Query `-- Reason -->` Agent Logic/Plan & Act `<-- Iterate and Feedback -->` Output/Goal-Oriented Result
+  - Reasoning w/ LLMs, Tools for actions
+
+Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agentic AI
+
+### LLMs
+- Language-focused, task-specific, human-guided
+- basic usage: chatbots, text-generation
+
+#### Limitations
+- Stateless (no memory)
+- Context window constraints
+
+### Agents
+- Autonomous, goal-oriented, environment interaction
+- usage: virtual assistant, robotic vacuum
+
+#### Hands-On - Meeting Scheduler
+- Query -> Gemini -> `Select Time` -> Output
+  - `Select Time` is an action
+
