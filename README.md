@@ -85,3 +85,27 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
 - Query -> Gemini -> `Select Time` -> Output
   - `Select Time` is an action
 
+#### Limitations
+- Limited knowledge
+- Hallucination
+- No contextual updates (new information)
+- Scalability due to hard-coded logic
+
+### Retrieval Augmented Generation
+- External knowledge base
+- Flow: query -> retrieve chunks -> LLM -> output
+
+- AI Agent features + external data retrieval
+- usage: customer support, research assistant, diagnostic agent, legal agent
+
+#### Vector DB
+- Store high-dimensional vectors for fast similarity-based searches
+- e.g: ChromaDB, Pinecone
+
+### RAG Agent
+- Grounded in data
+- Accuracy based on embedding quality
+
+#### Hands-On - LLM+RAG Chatbot
+#### RAG Agent with Voice Stack
+
