@@ -164,4 +164,8 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
   - Replit, Cursor, Claude, etc
 
   ### Educational Content Generator
-  - Tech: Render, Streamlit, Claude
+  - Tech: Render, Streamlit, Claude 
+
+  - Upload `app.py` and `requirements.txt` to GitHub repo
+  - On Render, click on Add New and select Web Service
+  - Select the repository under Public Git Repository and click on Connect
