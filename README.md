@@ -1,23 +1,27 @@
 # Agentic-AI Workshop
 
-## Myths:
+## Introduction
+### Myths:
 - AI = LLMs only
 - AI = need huge training data
 - AI = need expertise in DL (can use no-code)
 - AI = need expertise in programming
 
-## Objectives:
+### Objectives:
 - Streamline repetitive workflows
-- Prompts, Agents, RL-based Agents
+- Prompts, RAG, Agents, RL-based Agents
 - Launch and deploy
 
-## Git:
+## Environment
+### Git:
 - Open-Source, Portfolio
 - CI/CD Pipeline (testing, deployment)
 
-## Google Colab
+### Google Colab
 - No need local setup
 - Configure secrets (`GOOGLE_API_KEY`)
 
-## Gemini API
+### Gemini API
 - Free LLM for generation
+
+## Prompt Engineering
