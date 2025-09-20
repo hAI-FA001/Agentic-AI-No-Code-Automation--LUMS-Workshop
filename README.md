@@ -38,10 +38,10 @@
 `"You are ..."`
 
 ### Constraint + Structured Prompting
-`"Limit to 150 words"`
-`"Use academic tone"`
-`"List exactly 3 ..."`
-`"Provide in JSON format with these keys: ..."`
+`"Limit to 150 words"` <br>
+`"Use academic tone"` <br>
+`"List exactly 3 ..."` <br>
+`"Provide in JSON format with these keys: ..."` <br>
 
 ### Few-Shot Prompting
 ```
