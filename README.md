@@ -169,3 +169,5 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
   - Upload `app.py` and `requirements.txt` to GitHub repo
   - On Render, click on Add New and select Web Service
   - Select the repository under Public Git Repository and click on Connect
+  - In Start Command, type `streamlit run app.py`
+  - Click on Deploy
