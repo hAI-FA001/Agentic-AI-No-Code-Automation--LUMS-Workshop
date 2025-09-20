@@ -158,4 +158,10 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
     - Check the credentials
     - Sign in with Google
     - Check the file/folder IDs
-  
+
+
+  ## Rapid Prototyping
+  - Replit, Cursor, Claude, etc
+
+  ### Educational Content Generator
+  - Tech: Render, Streamlit, Claude
