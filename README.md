@@ -160,17 +160,17 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
     - Check the file/folder IDs
 
 
-  ## Rapid Prototyping
-  - Replit, Cursor, Claude, etc
+ ## Rapid Prototyping
+ - Replit, Cursor, Claude, etc
 
-  ### Educational Content Generator
-  - Tech: Render, Streamlit, Claude 
+ ### Educational Content Generator
+ - Tech: Render, Streamlit, Claude 
 
-  - Upload `app.py` and `requirements.txt` to GitHub repo
-  - On Render, click on Add New and select Web Service
-  - Select the repository under Public Git Repository and click on Connect
-  - In Start Command, type `streamlit run app.py`
-  - Click on Deploy
+ - Upload `app.py` and `requirements.txt` to GitHub repo
+ - On Render, click on Add New and select Web Service
+ - Select the repository under Public Git Repository and click on Connect
+ - In Start Command, type `streamlit run app.py`
+ - Click on Deploy
 
 
 ## AI Ethics
