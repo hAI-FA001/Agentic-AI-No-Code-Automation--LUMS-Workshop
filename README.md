@@ -51,3 +51,12 @@
 <child>: ..."
 ```
 
+### Chain-of-Thought Prompting
+`"Show your reasoning before giving the final answer"`
+
+### Iterative Prompt Development
+E.g flow: initial -> add constraints -> add role, structure, further constraints, audience -> add style, citations
+
+### Model Limitations: Hallucinations
+E.g: asking about some new toothbrush, though it doesn't exist
+
