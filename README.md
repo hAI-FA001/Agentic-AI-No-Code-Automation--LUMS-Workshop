@@ -109,3 +109,18 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
 #### Hands-On - LLM+RAG Chatbot
 #### RAG Agent with Voice Stack
 
+### Agentic AI
+- High autonomy, advanced reasoning, proactive
+- usage: project management, self-adapting system
+
+#### ReAct - Reason+Act
+- Step-by-step, tool-usage
+- Flow: Reason -> Act -> Iterate
+
+#### Hands-On
+- Multi-agent content creation crew
+  - Researcher
+  - Writer
+  - Editor
+- Tech: LangChain, CrewAI, Google Generative API, Serper Search
+
