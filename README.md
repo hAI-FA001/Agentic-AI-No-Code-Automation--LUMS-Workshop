@@ -1,6 +1,8 @@
 # Agentic-AI Workshop
 
+
 ## Introduction
+
 ### Myths:
 - AI = LLMs only
 - AI = need huge training data
@@ -12,7 +14,9 @@
 - Prompts, RAG, Agents, RL-based Agents
 - Launch and deploy
 
+
 ## Environment
+
 ### Git:
 - Open-Source, Portfolio
 - CI/CD Pipeline (testing, deployment)
@@ -24,4 +28,26 @@
 ### Gemini API
 - Free LLM for generation
 
+
 ## Prompt Engineering
+
+### Basic Instructions Prompting
+`"Explain Quantum Computing"`
+
+### Role-Playing Prompting
+`"You are ..."`
+
+### Constraint + Structured Prompting
+`"Limit to 150 words"`
+`"Use academic tone"`
+`"List exactly 3 ..."`
+`"Provide in JSON format with these keys: ..."`
+
+### Few-Shot Prompting
+```
+"<child>: ...
+<gradnparent>: ...
+
+<child>: ..."
+```
+
