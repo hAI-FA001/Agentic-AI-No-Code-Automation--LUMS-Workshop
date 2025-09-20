@@ -124,3 +124,17 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
   - Editor
 - Tech: LangChain, CrewAI, Google Generative API, Serper Search
 
+
+## Reinforcement Learning for Agentic AI
+- Provide reward as feedback
+- Observation, Action/Tool, Thoughts, Response
+
+### Q-Learning Agent for a Grid-Wolrd
+
+
+## No-Code Automation
+- n8n, make.com, Zapier
+
+### N8N
+- Flow: Txt (GDrive) -> Google Sheets -> GMail Summary
+
