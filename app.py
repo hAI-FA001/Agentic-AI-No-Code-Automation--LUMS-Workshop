@@ -7,16 +7,35 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-# Download required NLTK data (run once)
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+def setup_nltk():
+    """Setup NLTK data with fallback for different versions."""
+    resources_to_download = ['stopwords']
+    
+    # Handle punkt/punkt_tab compatibility
+    punkt_resources = ['punkt_tab', 'punkt']
+    
+    for resource in punkt_resources:
+        try:
+            if resource == 'punkt_tab':
+                nltk.data.find('tokenizers/punkt_tab')
+            else:
+                nltk.data.find('tokenizers/punkt')
+            break
+        except LookupError:
+            try:
+                nltk.download(resource, quiet=True)
+                break
+            except:
+                continue
+    
+    # Download stopwords
+    try:
+        nltk.data.find('corpora/stopwords')
+    except LookupError:
+        nltk.download('stopwords', quiet=True)
 
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
+# Setup NLTK data
+setup_nltk()
 
 class ContentGenerator:
     def __init__(self):
