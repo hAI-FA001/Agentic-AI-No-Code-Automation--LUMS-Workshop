@@ -171,3 +171,27 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
   - Select the repository under Public Git Repository and click on Connect
   - In Start Command, type `streamlit run app.py`
   - Click on Deploy
+
+
+## AI Ethics
+- Transparency: Clearly explain AI systems and data usage for trust
+- Fairness: No biasness
+- Beneficence: Societal benefits
+- Environment: Energy-efficient and renewable solutions
+- Intergenerational equity: Minimize climate impact
+
+## Future
+- Vertical AI Agents 10x bigger than SaaS
+- 1-person, billion-dollar companies
+- AIaaS for every SaaS unicorn today
+
+## AI Engineer Bootcamp
+- 6-Weeks, Online, 3-Hour sessions on Sat/Sun
+- Skills: No-Code automation, Agentic systems, Rapid prototyping
+- 5-6 hands-on projects
+- `outreach@solinnovate.io`
+
+## AI Engineer - Fill-Stack
+- Frontend: Streamlit, React
+- Backend: APIs, FastAPI
+- Cognitive Layer (Agents): LLMs
