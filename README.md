@@ -136,5 +136,26 @@ Relation with Agents: LLMs `-- Builds -->` AI Agents `-- Advances to -->` Agenti
 - n8n, make.com, Zapier
 
 ### N8N
-- Flow: Txt (GDrive) -> Google Sheets -> GMail Summary
-
+- Flow: Txt (Google Drive) -> Google Sheets -> GMail Summary
+- Need: N8N account, Google API, Google Sheets ID, Google Drive ID, GMail API
+- Steps:
+  - Enable APIs (Google Sheets, Drive and GMail)
+  - Add OAuth screen (under Credentials)
+  - Add OAuth client (with Web app option)
+  - Link Google OAuth and N8N:
+    - Create new workflow in N8N
+    - Add Google Drive or any service (to get to credentials screen)
+    - Will ask for Credentials, so create new Credentials
+    - Use its Redirect URI in Google OAuth client
+    - Save and Use OAuth client's information in n8n's credential (client ID and secret)
+  - (Maybe Optional) Go to Data Access and add these Scopes: `	.../auth/gmail.send`, `.../auth/drive`, `.../auth/drive.file`, `.../auth/drive.metadata.readonly`, `../auth/gmail.readonly`, `.../auth/drive.readonly`, `.../auth/docs`, `.../auth/drive.metadata`, `.../auth/spreadsheets`, `.../auth/spreadsheets.readonly`
+  - Go to Audience, add a user under Test Users, enter your email and save
+  - Go back to the n8n credentials screen and now click on Sign in With Google and follow the steps
+  - Create a new Google Sheet and note the ID from the URL (between `/d` and `/edit`)
+  - Create a new folder in Google Drive, make it public and note the ID from the URL (all after `/folders`)
+  - Import the JSON workflow for no-code automation
+  - Go to each node, then:
+    - Check the credentials
+    - Sign in with Google
+    - Check the file/folder IDs
+  
